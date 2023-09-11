@@ -12,11 +12,11 @@ const Footer = () => {
             <p className="text-sm text-center sm:text-left">&copy; {new Date().getFullYear()} Todos los derechos reservados.</p>
           </div>
           <div className="flex justify-center space-x-4">
-            <Button as="a" href="https://github.com/kevinduhamel" color="light" auto aria-label="Github profile" target="_blank" rel="noopener noreferrer">
-              <FaGithub size={60} />
+            <Button as="a" href="https://github.com/kevinduhamelhayes" color="light" auto aria-label="Github profile" target="_blank" rel="noopener noreferrer">
+              <FaGithub size={60} color="#A435F0" />
             </Button>
-            <Button as="a" href="https://linkedin.com/in/kevinduhamel" color="light" auto aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin size={60} />
+            <Button className="" as="a" href="https://www.linkedin.com/in/kevin-duhamel-hayes" color="pr" auto aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin size={60} color="#0A66C2" />
             </Button>
           </div>
         </div>
